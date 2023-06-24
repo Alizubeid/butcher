@@ -1,7 +1,6 @@
 ##################################################
 #modules
 #################################################
-from dataclasses import replace
 from colorama import Fore
 from pyfiglet import figlet_format as font
 import os,sys,time,socket,requests,random,platform
