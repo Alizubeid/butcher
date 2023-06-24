@@ -1,6 +1,6 @@
-##build by guardiran security team : guardiran.org
+##This tool is in test mode
 -------------------------------------------------------
-git clone https://github.com/guardiran-SP4RT4/Butcher/
+git clone https://github.com/Alizubeid/butcher/
 -------------------------------------------------------
 cd Butcher
 -------------------------------------------------------
