@@ -20,7 +20,7 @@ try:
         try:
             admin=open('admin.txt').read().split()
             os.system(str(pack))
-            print(Fore.LIGHTCYAN_EX+font('GuardIran.org'))
+            print(Fore.LIGHTCYAN_EX+font('Butcher'))
             url=input(Fore.LIGHTBLUE_EX+' [+] '+Fore.BLUE+'Enter URL from Target : ')
 
             if 'http' in url:
@@ -45,7 +45,7 @@ except:
 try:
     def login():
         os.system(str(pack))
-        print(Fore.LIGHTCYAN_EX+font('GuardIran.org'))
+        print(Fore.LIGHTCYAN_EX+font('Butcher'))
         url_login=input(Fore.LIGHTBLUE_EX+' [+] '+Fore.BLUE+'Enter URL from Target : ').replace(' ',' '.replace())
         print(' [1] my username list\n [2] defalt')
         use=input(' [+] enter the username list mode : ')
@@ -85,7 +85,7 @@ except:
 ################################################
 def bypass():
     os.system(str(pack))
-    print(Fore.LIGHTCYAN_EX+font('GuardIran.org'))
+    print(Fore.LIGHTCYAN_EX+font('Butcher'))
     try:
         url_bypass=input(Fore.LIGHTYELLOW_EX+' [+] '+Fore.LIGHTYELLOW_EX+'Enter URL from Target : ')
         if 'https://'in url_bypass:
@@ -150,7 +150,7 @@ def bypass():
 ###############################################
 def DDOS():
     os.system(str(pack))
-    print(Fore.LIGHTCYAN_EX+font('GuardIran.org'))
+    print(Fore.LIGHTCYAN_EX+font('Butcher'))
     ip=input(' [+] please Enter IP address : ')
     port=input(' [+] on port : ')
     sock=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)#.sendto(byte())
@@ -167,8 +167,8 @@ def start():
     while True:
         try:
             os.system(str(pack))
-            print(font('GuardIran.org'))
-            print('\n   ___    creator=>https://guardiran.org/profiles/31337-sparta/    ___')
+            print(font('Butcher'))
+            print('\n   ___    https://github.com/Alizubeid/    ___')
             time.sleep(1)
             num1=Fore.LIGHTYELLOW_EX+' ['+Fore.WHITE+'1'+Fore.LIGHTYELLOW_EX+'] '+':'+Fore.LIGHTGREEN_EX+' admin finder '
             num2=Fore.LIGHTYELLOW_EX+' ['+Fore.WHITE+'2'+Fore.LIGHTYELLOW_EX+'] '+':'+Fore.LIGHTGREEN_EX+' crack login page '
@@ -177,7 +177,7 @@ def start():
             num5=Fore.LIGHTYELLOW_EX+' ['+Fore.WHITE+'99'+Fore.LIGHTYELLOW_EX+'] '+':'+Fore.LIGHTGREEN_EX+' Exit '
 
             print(f'\n{num1}\n{num2}\n{num3}\n{num4}\n{num5}')
-            get=input(' sparta@guardiran:~# ')
+            get=input(' user@butcher~:# ')
             if '1' in get:
                 _Run_()
             elif '2' in get:
